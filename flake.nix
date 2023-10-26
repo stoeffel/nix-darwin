@@ -49,7 +49,7 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.stoeffel = import ./homme-manager/home.nix;
+            home-manager.users.stoeffel = import ./home.nix;
           }
 	];
     };
